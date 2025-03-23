@@ -1,0 +1,109 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#principal{
+    background-color: rgb(163, 207, 168);
+  }
+#logo{
+    width: 145px;
+    text-align: right;
+
+}
+#titulo{
+    padding-top: 10px;
+}
+#navmenu{
+    font-size:xx-large;
+    background-color: rgb(12, 134, 12); 
+    justify-content: center;
+    padding: auto;
+    text-align: center;
+}
+.navbar-light .nav-item.nav-link{
+    color: rgb(255, 255, 255);
+    
+}
+.navbar-light .nav-item.nav-link:hover {
+    color: rgb(118, 49, 49);
+}
+#espacio{
+    border: 1px;
+    background-color: rgb(110, 37, 3);
+}
+#seccion{
+    background-color: aliceblue;   
+    text-align: center;
+    color:black;
+}
+.text-center{
+    padding-top: 50px;
+}
+footer{
+    color: white;
+    padding-top: 20px;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: grey;
+}
+#quienes{
+    font-size: x-large;
+    border: solid 2px green;
+}
+#reglas{
+    font-size: x-large;
+    border: solid 2px green;
+}
+#mapautp{
+    width: 100%;
+    height: 100%;
+    border: solid 2px green;
+}
+#horarios{
+    border: solid 2px green;
+}
+#identidad{
+    text-align: center;
+    font-size: xx-large;
+}
+#extras{
+    border: solid 2px green;
+    font-size: xx-large;
+}
+#extras2{
+    text-align: center;
+}
+#distinciones{
+    width: 100%;
+    height: 100%;
+}
+#fondoutp{
+    width: 50%;
+    height: 50%;
+}
+#forminiciaviaje{
+    border: solid 3px black;
+    background-color: rgb(171, 255, 189);
+}
+#pagprincipal{
+    width: 100%;
+    height: 100%;
+}
+#containerinvenatrio{
+    border: solid 3px black;
+    background-color: rgb(171, 255, 189);
+}
+#contañadirpatin{
+    border: solid 3px black;
+    background-color: rgb(171, 255, 189);
+}
+#contregistrarpasajero{
+    border: solid 3px black;
+    background-color: rgb(171, 255, 189);
+}
+#user{
+    width: 80px;
+}
+/*  

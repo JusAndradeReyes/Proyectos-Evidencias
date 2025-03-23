@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Justino",
+        "apellidos": "Andrade Reyes",
+        "fecha_nacimiento": "15/03/1985",
+        "puesto": "Administrador",
+        "activo": true,
+        "password": "Password1"
+    },
+    {
+        "nombre": "María",
+        "apellidos": "Gómez",
+        "fecha_nacimiento": "22/07/1990",
+        "puesto": "Analista",
+        "activo": true,
+        "password": "Password1"
+    },
+    {
+        "nombre": "Juan",
+        "apellidos": "Lopez",
+        "fecha_nacimiento": "01/10/1998",
+        "puesto": "Soporte",
+        "activo": false,
+        "password": "Password1"
+    },
+    {
+        "nombre": "Carlos",
+        "apellidos": "Andrade",
+        "fecha_nacimiento": "07/04/2000",
+        "puesto": "Cliente1",
+        "activo": false,
+        "password": "Password1"
+    },
+    {
+        "nombre": "María Jose",
+        "apellidos": "Reyero",
+        "fecha_nacimiento": "18/01/2001",
+        "puesto": "Cliente2",
+        "activo": false,
+        "password": "Password1"
+    }
+]

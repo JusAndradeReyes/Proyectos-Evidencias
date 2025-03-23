@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="default" extends="hibernate-default">
+		<action name="alta" class="org.action.estudiante.ActionEstudiante" method="add">
+			<result name="success" type="redirect">consulta</result>
+		</action>
+		<action name="baja" class="org.action.estudiante.ActionEstudiante" method="delete">
+			<result name="success" type="redirect">consulta</result>
+		</action>
+		<action name="consulta" class="org.action.estudiante.ActionEstudiante" method="select">
+			<result name="success">/form.jsp</result>
+		</action>
+		<action name="editar" class="org.action.estudiante.ActionEstudiante" method="edit">
+			<result name="success">/form.jsp</result>
+		</action>
+	</package>
+</struts>

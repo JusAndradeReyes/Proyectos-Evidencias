@@ -1,0 +1,35 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Estilo del formulario de login */
+.login-container {
+    width: 350px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de la tabla */
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Asegurar alineación de íconos en la columna de estado */
+.estado-icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Botón de cerrar sesión */
+.btn-danger {
+    transition: 0.3s;
+}
+
+.btn-danger:hover {
+    background-color: #50161c;
+}

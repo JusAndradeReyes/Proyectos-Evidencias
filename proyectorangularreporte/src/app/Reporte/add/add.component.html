@@ -1,0 +1,26 @@
+<div class="container col-md-6">
+  <div class="card">
+    <div class="card-header"><h2>Módulo Agregar Reporte</h2>
+      <div class="card-body">
+        <form action="">
+          <div class="form-group">
+            <label for="">NOMBRE:</label>
+            <input [(ngModel)]="modelReporte.nombre" name="nombre" type="text" class="form-control"/>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="">TIPO:</label>
+            <input [(ngModel)]="modelReporte.tipo" name="tipo" type="text" class="form-control"/>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="">COMENTARIO:</label>
+            <input [(ngModel)]="modelReporte.comentario" name="comentario" type="text" class="form-control"/>
+          </div>
+          <br>
+          <button (click)="Guardar(modelReporte)" class="btn btn-success">Guardar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

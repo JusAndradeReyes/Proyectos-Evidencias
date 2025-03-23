@@ -1,0 +1,29 @@
+<!--LOC: INVERSIÓN DE CONTROL, spring.xml-->
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<!--INYECCIÓN DE DEPENDENCIAS POR EL MÉTODO CONSTRUCTOR-->
+	<bean id="ejemplouno" class="org.ejemplo.uno.Triangle">
+		<constructor-arg value ="75" type="int"/>
+		<constructor-arg value="EQUILATERAL" type="java.lang.String"/>
+	</bean>
+	<!--INYECCIÓN DE DEPENDENCIAS POR GET AND SET-->
+	<bean id="ejemplodos" class="org.ejemplo.dos.Triangle">
+		<property name="pointA" ref="pointOne"/>
+		<property name="pointB" ref="pointTwo"/>
+		<property name="pointC" ref="pointThree"/>
+	</bean>
+	<bean id="pointOne" class="org.ejemplo.dos.Point">
+		<property name="x" value="1"/>
+		<property name="y" value="2"/>
+	</bean>
+	<bean id="pointTwo" class="org.ejemplo.dos.Point">
+		<property name="x" value="3"/>
+		<property name="y" value="4"/>
+	</bean>
+	<bean id="pointThree" class="org.ejemplo.dos.Point">
+		<property name="x" value="5"/>
+		<property name="y" value="6"/>
+	</bean>
+</beans>

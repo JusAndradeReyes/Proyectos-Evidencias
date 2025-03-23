@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="card">
+    <div class="card-header"><h2>Listado de Reportes</h2>
+      <div class="card-body">
+        <table class="table table-dark table-striped">
+          <thead style="text-align: center;">
+            <tr>
+              <td>ID</td>
+              <td>NOMBRE</td>
+              <td>TIPO</td>
+              <td>COMENTARIO</td>
+              <td>ACCIONES</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let reporte of reportes" class="text-center">
+              <td>{{reporte.id}}</td>
+              <td>{{reporte.nombre}}</td>
+              <td>{{reporte.tpo}}</td>
+              <td>{{reporte.comentario}}</td>
+              <td>
+                <button (click)="Editar(reporte)" class="btn btn-warning">Editar</button>
+                <button (click)="Eliminar(reporte)" class="btn btn-danger" style="margin-left: 20px;">Eliminar</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
